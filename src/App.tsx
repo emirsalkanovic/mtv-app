@@ -4,7 +4,7 @@ import { shallowEqual, useDispatch, useSelector } from 'react-redux';
 import { SearchBar } from './components/SearchBar';
 import { TabField } from './components/TabField';
 import './App.css'
-import TvShowScreen from './features/tvShows/components/TvShowScreen';
+import TvShowScreen from './features/top-ten/components/TvShowScreen';
 import { searchTvShowsFunction, searchMoviesFunction } from './features/search/actions/search-actions';
 import { SearchResultsScreen } from './features/search/components/SearchResultsScreen';
 import { DetailsScreen } from './features/details/components/DetailsScreen';

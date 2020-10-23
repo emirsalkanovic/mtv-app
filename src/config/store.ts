@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import ReduxThunk from 'redux-thunk';
 
-import { topMoviesReducer, topTvShowsReducer } from '../features/tvShows/reducers/top-10-reducer';
+import { topMoviesReducer, topTvShowsReducer } from '../features/top-ten/reducers/top-10-reducer';
 import { searchMoviesReducer, searchTvShowsReducer } from '../features/search/reducers/search-reducer';
 import { getVideosReducer } from '../features/details/reducer/details-reducer';
 

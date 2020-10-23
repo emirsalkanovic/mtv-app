@@ -2,7 +2,7 @@ import React, { Dispatch, useEffect } from 'react';
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { LoadingScreen } from '../../../components/LoadingScreen';
 import { getTopMoivesRequest, getTopTvShowsRequest } from '../actions/top-10-actions';
-import { TopTenTvShowsScreen } from './TopTenTvShowsScreen';
+import { TopTenTvShowsScreen } from './TopTenScreen';
 
 type TvShowProps = {
   selectedTab: string,
