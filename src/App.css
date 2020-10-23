@@ -1,38 +1,125 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
+}
+
+.tabHolder{
+  width: '100%';
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.singleTabHolderActive{
+  background-color:#5967c3;
+  width: 30%;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1%;
+}
+
+.singleTabHolder{
+  background-color: white;
+  width: 30%;
+  height: 40px;
+  border: 2px solid #637381;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1%;
+}
+
+.singleTabHolder:hover{
+  border: 3px solid #5967c3;
+}
+
+.singleTabHolderActive:hover{
+  border: 3px solid #5967c3;
+}
+
+.innerTab{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #637381;
+  font-weight: 500;
+}
+
+.innerTabActive{
+  justify-content: center;
+  align-items: center;
   color: white;
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.searchBarHolder{
+  margin-top: 2%;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchFieldContainer{
+  width: 100%;
+  border: 1px solid #637381;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 1%;
 }
+
+.searchField{
+  width: 97%;
+  height: 30px;
+  padding-left: 5px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.searchIcon{
+  color: #637381;
+  margin-left: 1%;
+}
+
+.searchField:active{
+  border: none
+} 
+
+.searchField:focus{
+  border: none;
+}
+
+.loadingScreenContainer{
+  flex-grow: 1;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingIcon{
+  height: 300px;
+  width: 300px;
+  color: #637381;
+}
+
+

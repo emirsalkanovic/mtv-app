@@ -1,0 +1,80 @@
+
+.topTenHeaderHolder{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 2%;
+}
+
+.topTenHeader{
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #637381;
+}
+
+.topTenMainHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.topTenSingleItemHolder{
+  width: 40%;
+  min-height: 250px;
+  margin: 1%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5px solid #A2A7AD80;
+  border-radius: 7px;
+}
+
+.topTenSingleItemHolder p{
+  margin: 1%;
+}
+
+.topTenSingleItemHolder:hover{
+  border: 2px solid  #5967c3;
+}
+
+.topTenSingleItemInnerHolder{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.topTenSingleImageHolder{
+  width: 40%;
+}
+
+.topTenPosterImg{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.topTenTitle{
+  font-weight: bold;
+  color: #5967c3;
+}
+
+.topTenRating{
+  font-weight: bold;
+  color: white;
+  background-color: #5967c3;
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
